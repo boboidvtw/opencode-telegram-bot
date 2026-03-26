@@ -4,6 +4,7 @@ import { es } from "./es.js";
 import { fr } from "./fr.js";
 import { ru } from "./ru.js";
 import { zh } from "./zh.js";
+import { tw } from "./tw.js";
 
 interface LocaleDefinition {
   code: string;
@@ -48,6 +49,12 @@ const LOCALE_DEFINITIONS = [
     label: "简体中文",
     dateLocale: "zh-CN",
     dictionary: zh,
+  },
+  {
+    code: "tw",
+    label: "繁體中文",
+    dateLocale: "zh-TW",
+    dictionary: tw,
   },
 ] as const satisfies readonly LocaleDefinition[];
 
