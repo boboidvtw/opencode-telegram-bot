@@ -237,7 +237,7 @@ export const tw: I18nDictionary = {
   "question.no_active_request": "❌ 沒有活動請求",
   "question.send_answers_error": "❌ 向代理程式發送答案失敗",
   "question.multi_hint": "\n（你可以選擇多個選項）",
-  "question.button.submit": "✅ 完成",
+  "question.button.submit": "✅ 提交",
   "question.button.custom": "🔤 自訂回答",
   "question.button.cancel": "❌ 取消",
   "question.use_custom_button_first": '⚠️ 要發送文字，請先點擊當前問題的 "自訂回答" 按鈕。',
