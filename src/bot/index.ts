@@ -19,6 +19,7 @@ import {
 } from "./message-patterns.js";
 import { sessionsCommand, handleSessionSelect } from "./commands/sessions.js";
 import { newCommand } from "./commands/new.js";
+import { clearCommand } from "./commands/clear.js";
 import { projectsCommand, handleProjectSelect } from "./commands/projects.js";
 import { abortCommand } from "./commands/abort.js";
 import { opencodeStartCommand } from "./commands/opencode-start.js";
@@ -826,10 +827,11 @@ export function createBot(): Bot<Context> {
   bot.command("status", statusCommand);
   bot.command("opencode_start", opencodeStartCommand);
   bot.command("opencode_stop", opencodeStopCommand);
-  bot.command("projects", projectsCommand);
   bot.command("sessions", sessionsCommand);
   bot.command("new", newCommand);
+  bot.command("clear", clearCommand);
   bot.command("abort", abortCommand);
+  bot.command("projects", projectsCommand);
   bot.command("task", taskCommand);
   bot.command("tasklist", taskListCommand);
   bot.command("rename", renameCommand);

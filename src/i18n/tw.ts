@@ -11,6 +11,7 @@ export const tw: I18nDictionary = {
   "cmd.description.commands": "自訂指令",
   "cmd.description.opencode_start": "啟動 OpenCode 伺服器",
   "cmd.description.opencode_stop": "停止 OpenCode 伺服器",
+  "cmd.description.clear": "一鍵清除對話並建立新會話",
   "cmd.description.help": "說明",
 
   "callback.unknown_command": "未知指令",
@@ -125,6 +126,9 @@ export const tw: I18nDictionary = {
   "new.project_not_selected": "🏗 未選擇專案。\n\n請先使用 /projects 選擇一個專案。",
   "new.created": "✅ 新對話已建立：{title}",
   "new.create_error": "🔴 OpenCode 伺服器不可用，或建立對話時發生錯誤。",
+
+  "clear.success": "✅ 對話已清除。正在建立新會話：{title}",
+  "clear.error": "🔴 清除對話失敗。",
 
   "stop.no_active_session": "🛑 代理程式尚未啟動\n\n使用 /new 建立對話，或透過 /sessions 選擇一個。",
   "stop.in_progress": "🛑 已停止事件流，正在發送中止訊號...\n\n等待代理程式停止。",

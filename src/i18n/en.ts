@@ -9,6 +9,7 @@ export const en = {
   "cmd.description.commands": "Custom commands",
   "cmd.description.opencode_start": "Start OpenCode server",
   "cmd.description.opencode_stop": "Stop OpenCode server",
+  "cmd.description.clear": "Clear conversation and start new session",
   "cmd.description.help": "Help",
 
   "callback.unknown_command": "Unknown command",
@@ -140,6 +141,9 @@ export const en = {
   "new.created": "✅ New session created: {title}",
   "new.create_error":
     "🔴 OpenCode Server is unavailable or an error occurred while creating session.",
+
+  "clear.success": "✅ Conversation cleared. New session: {title}",
+  "clear.error": "🔴 Failed to clear conversation.",
 
   "stop.no_active_session":
     "🛑 Agent was not started\n\nCreate a session with /new or select one via /sessions.",

@@ -1,9 +1,4 @@
 import { en, type I18nKey } from "./en.js";
-import { de } from "./de.js";
-import { es } from "./es.js";
-import { fr } from "./fr.js";
-import { ru } from "./ru.js";
-import { zh } from "./zh.js";
 import { tw } from "./tw.js";
 
 interface LocaleDefinition {
@@ -19,36 +14,6 @@ const LOCALE_DEFINITIONS = [
     label: "English",
     dateLocale: "en-US",
     dictionary: en,
-  },
-  {
-    code: "de",
-    label: "Deutsch",
-    dateLocale: "de-DE",
-    dictionary: de,
-  },
-  {
-    code: "es",
-    label: "Español",
-    dateLocale: "es-ES",
-    dictionary: es,
-  },
-  {
-    code: "fr",
-    label: "Français",
-    dateLocale: "fr-FR",
-    dictionary: fr,
-  },
-  {
-    code: "ru",
-    label: "Русский",
-    dateLocale: "ru-RU",
-    dictionary: ru,
-  },
-  {
-    code: "zh",
-    label: "简体中文",
-    dateLocale: "zh-CN",
-    dictionary: zh,
   },
   {
     code: "tw",

@@ -1,0 +1,4 @@
+Warning: OPENCODE_SERVER_PASSWORD is not set; server is unsecured.
+[91m[1mError: [0mUnexpected error, check log file at /Users/liyungchih/.local/share/opencode/log/2026-04-06T144237.log for more details
+
+Failed to start server on port 4096
