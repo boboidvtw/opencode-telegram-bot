@@ -33,3 +33,4 @@ settings.json
 # Packaging artifacts
 *.tgz
 bot.log
+test_screenshot.png
