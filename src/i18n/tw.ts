@@ -12,7 +12,14 @@ export const tw: I18nDictionary = {
   "cmd.description.opencode_start": "啟動 OpenCode 伺服器",
   "cmd.description.opencode_stop": "停止 OpenCode 伺服器",
   "cmd.description.clear": "一鍵清除對話並建立新會話",
-  "cmd.description.help": "說明",
+  "cmd.description.help": "幫助",
+  "cmd.description.web": "執行 OpenCLI 網頁/工具操作",
+  "cmd.description.screenshot": "截取當前瀏覽器畫面",
+
+  "bot.executing_web": "⚡ 正在執行網頁指令...",
+  "bot.web_error": "🔴 執行網頁指令失敗。",
+  "bot.screenshot_success": "📸 截圖已完成",
+  "bot.screenshot_error": "🔴 截圖失敗",
 
   "callback.unknown_command": "未知指令",
   "callback.processing_error": "處理錯誤",

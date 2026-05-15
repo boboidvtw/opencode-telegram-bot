@@ -11,6 +11,13 @@ export const en = {
   "cmd.description.opencode_stop": "Stop OpenCode server",
   "cmd.description.clear": "Clear conversation and start new session",
   "cmd.description.help": "Help",
+  "cmd.description.web": "Execute OpenCLI web/tool commands",
+  "cmd.description.screenshot": "Take a screenshot of the current browser tab",
+
+  "bot.executing_web": "⚡ Executing web command...",
+  "bot.web_error": "🔴 Failed to execute web command.",
+  "bot.screenshot_success": "📸 Screenshot captured",
+  "bot.screenshot_error": "🔴 Failed to capture screenshot",
 
   "callback.unknown_command": "Unknown command",
   "callback.processing_error": "Processing error",
